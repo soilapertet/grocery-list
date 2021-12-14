@@ -2,3 +2,7 @@ body
 {
   background-image: url(../images/groceries.jpeg);
 }
+h1, p
+{
+  text-align: center;
+}
