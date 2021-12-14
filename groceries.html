@@ -4,34 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/groceries.css">
   <title>Grocery List</title>
 </head>
 <body>
   <h1>Create your own grocery list</h1>
-  <form id="FormId">
-    <p>
-      Please enter your grocery list here(max of 6 items):
-    </p>
-    <label for="item-1">Grocery item 1:</label>
-    <input type="text" id="item-1">
-    <br><br>
-    <label for="item-2">Grocery item 2:</label>
-    <input type="text" id="item-2">
-    <br><br>
-    <label for="item-3">Grocery item 3:</label>
-    <input type="text" id="item-3">
-    <br><br>
-    <label for="item-4">Grocery item 4:</label>
-    <input type="text" id="item-4">
-    <br><br>
-    <label for="item-5">Grocery item 5:</label>
-    <input type="text" id="item-5">
-    <br><br>
-    <label for="item-6">Grocery item 6:</label>
-    <input type="text" id="item-6">
-    <br><br>
-    <button type="button" class="button" onclick="logGroceries()">Submit grocery list</button>
-  </form>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <form id="FormId">
+          <p>
+            Please enter your grocery list here(max of 6 items):
+          </p>
+          <label for="item-1">Grocery item 1:</label>
+          <input type="text" id="item-1">
+          <br><br>
+          <label for="item-2">Grocery item 2:</label>
+          <input type="text" id="item-2">
+          <br><br>
+          <label for="item-3">Grocery item 3:</label>
+          <input type="text" id="item-3">
+          <br><br>
+          <label for="item-4">Grocery item 4:</label>
+          <input type="text" id="item-4">
+          <br><br>
+          <label for="item-5">Grocery item 5:</label>
+          <input type="text" id="item-5">
+          <br><br>
+          <label for="item-6">Grocery item 6:</label>
+          <input type="text" id="item-6">
+          <br><br>
+          <button type="button" class="button" onclick="logGroceries()">Submit grocery list</button>
+        </form>
+      </div>
+    </div>
+  </div>
   <script src="js/groceries-script.js"></script>
 </body>
 </html>
