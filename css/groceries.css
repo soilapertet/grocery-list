@@ -13,4 +13,17 @@ on the container’s size */
 h1, p
 {
   text-align: center;
+
+}
+.card
+{
+  opacity:0.8;
+  background-image: linear-gradient(to bottom right, #cfd9df,#e2ebf0);
+  border:4px solid #68B2A0;
+}
+.card-body
+{
+  font-style: italic;
+  font-weight: 800;
+  font-size: 25px;
 }
